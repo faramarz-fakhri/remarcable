@@ -18,4 +18,4 @@ This project uses **Django ORM, SQLite, Bootstrap styling**, and includes **unit
 ### 1. Clone the repo
 ```bash
 git clone git@github.com:faramarz-fakhri/remarcable.git
-cd remarcable
+cd catalog
