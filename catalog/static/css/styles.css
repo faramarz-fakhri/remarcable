@@ -1,0 +1,15 @@
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 0.75rem;
+}
+
+.form-check-label {
+  margin-right: 10px;
+}
