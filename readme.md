@@ -1,21 +1,30 @@
-# Remarcable Catalog
+# Remarcable
 
-A simple Django project that manages **categories, tags, and items** for the company *Remarcable*.  
-This project uses **Django ORM, SQLite, Bootstrap styling**, and includes **unit tests** with GitHub Actions CI.
+A Django project for managing items, categories, and tags.
 
 ---
 
 ## Features
-- Manage categories and tags
-- Add items with description, category, tags, and price
-- Bootstrap-styled frontend for item listing
-- SQLite database (default)
-- Unit tests (run locally or via GitHub Actions)
-- GitHub Actions CI pipeline with coverage reporting
+
+- Categories and tags with unique slugs.
+- Items with relationships to categories and tags.
+- SQLite database for easy setup.
+- Ready for automated testing with GitHub Actions CI.
 
 ---
 
-### 1. Clone the repo
+## Setup
+
+### Prerequisites
+
+- Python 3.11
+- Git
+- (Optional) Virtual environment tool such as `venv`
+
+### Steps
+
+1. **Clone the repository**
+
 ```bash
 git clone git@github.com:faramarz-fakhri/remarcable.git
 cd catalog
